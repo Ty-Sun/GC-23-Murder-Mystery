@@ -1,0 +1,63 @@
+html {
+	height: 100%;
+	width: 100%;
+	background-image: url("https://cdn.discordapp.com/attachments/1118169724279337031/1129082791397699634/Untitled_design.png");
+}
+
+body {
+	text-align: center;
+}
+
+.container {
+	font-size: 24px;
+	padding: 25px;
+}
+
+/*.parallax {
+	background: url("https://media.discordapp.net/attachments/1118169724279337031/1128754114113839194/image.png?width=1025&height=215") no-repeat center;
+	background-size: 600 px 300px;
+	background-attachment: fixed;
+	height: 500px;
+}*/
+
+h1 {
+	font-family: ;
+	
+}
+/* fade in text attempt */
+.fade-in-text {
+  font-family: Arial;
+  font-size: 50px;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+

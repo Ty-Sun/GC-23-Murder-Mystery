@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Clue 3</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+<script>
+    function checkAnswer() {
+      var input = document.getElementById('answer').value.toLowerCase(); // Retrieve the input value and convert it to lowercase
+      
+      if (input === 'gordon ramsey') { // Check if the input matches the correct answer
+        window.location.href = 'ofinalpage.html'; // Redirect to another HTML page if the answer is correct
+      } else {
+        alert('Incorrect answer. Please try again.'); // Display an alert message if the answer is incorrect
+      }
+    }
+  </script>
+</head>
+
+
+<h3>Clue 3</h3>
+
+<h2>Check twitter for suspicious activity that might shed light on the case.</h2>
+	<p>His twitter link seems encrypted? Carl's favorite number is 5</p>
+	<a>encrypted twitter link<a>
+<br>
+		<hr width="98%" size="1" align="center">
+<h3>Who was the Murderer?</h3>
+<FONT COLOR="#a5a8a6"><i>enter in lowercase</i></FONT><br>
+<label for="answer">Enter the correct answer:</label>
+  <input type="text" id="answer">
+  <button onclick="checkAnswer()">Submit</button>
+
+</html>
